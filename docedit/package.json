@@ -1,0 +1,41 @@
+{
+  "name": "docedit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "test": "jest",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "mongoose": "9.8.1",
+    "@tiptap/react": "3.29.2",
+    "@tiptap/starter-kit": "3.29.2",
+    "@tiptap/pm": "3.29.2"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/node": "22.10.5",
+    "@types/react": "19.2.8",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.3.3",
+    "@tailwindcss/postcss": "4.3.3",
+    "postcss": "8.5.1",
+    "eslint": "9.18.0",
+    "eslint-config-next": "16.2.12",
+    "jest": "30.4.2",
+    "jest-environment-node": "30.4.1",
+    "ts-jest": "29.4.12",
+    "tsx": "4.19.2",
+    "dotenv": "16.4.7"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}

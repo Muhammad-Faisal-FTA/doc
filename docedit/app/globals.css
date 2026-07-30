@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+}
+
+body {
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+/* Minimal Tiptap editor styling */
+.ProseMirror {
+  outline: none;
+  min-height: 300px;
+}
+
+.ProseMirror h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0.6em 0 0.3em;
+}
+
+.ProseMirror h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0.6em 0 0.3em;
+}
+
+.ProseMirror h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0.5em 0 0.3em;
+}
+
+.ProseMirror p {
+  margin: 0.5em 0;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 1.5rem;
+  margin: 0.5em 0;
+}
+
+.ProseMirror ul {
+  list-style: disc;
+}
+
+.ProseMirror ol {
+  list-style: decimal;
+}
